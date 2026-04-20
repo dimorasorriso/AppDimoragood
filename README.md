@@ -1,11 +1,19 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# Dimora Sorriso - Guida Digitale
 
-  <h1>Built with AI Studio</h2>
+## Caricamento Manuale su Netlify (Drag & Drop)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Se non vuoi usare GitHub, segui questi passaggi:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+1. Apri il terminale nella cartella del progetto.
+2. Installa i componenti:
+   ```bash
+   npm install
+   ```
+3. Crea il pacchetto per il sito (la cartella `dist`):
+   ```bash
+   npm run build
+   ```
+4. Al termine, vedrai una nuova cartella chiamata **`dist`** nel tuo progetto.
+5. Vai su [Netlify Drop](https://app.netlify.com/drop).
+6. Trascina la cartella **`dist`** (solo quella!) nel riquadro di caricamento.
