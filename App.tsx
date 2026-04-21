@@ -349,8 +349,10 @@ const App: React.FC = () => {
     if (section.id === 'waste') {
       const parts = section.description[lang].split('\n\n');
       const intro = parts[0];
-      const locations = parts.slice(1, 3); // Get the two location blocks
-      const bins = parts.slice(3); // Get the bin types
+      const locations = parts.slice(1).filter((p: string) => p.includes('Maps:'));
+      
+      const binsPart = parts.slice(1).find((p: string) => !p.includes('Maps:'));
+      const bins = binsPart ? binsPart.split('\n').filter((b: string) => b.trim() !== '') : [];
 
       return (
         <div className="px-6 pb-8 pt-2 space-y-5">
