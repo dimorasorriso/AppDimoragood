@@ -1,7 +1,8 @@
 {
-  "name": "Remix: Dimora Sorriso -  test (good)",
+  "name": "App Dimora Sorriso -  test (good)",
   "description": "A comprehensive digital concierge and welcome guide for Dimora Sorriso in Bari, featuring local recommendations, house rules, and an admin dashboard for updates.",
   "requestFramePermissions": [
     "geolocation"
-  ]
+  ],
+  "majorCapabilities": []
 }

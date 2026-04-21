@@ -457,14 +457,14 @@ export const INITIAL_GUIDE_DATA: GuideData = {
         PL: "Nagłe wypadki"
       },
       description: {
-        IT: "Numeri di emergenza",
-        EN: "Emergency numbers",
-        DE: "Notrufnummern",
-        FR: "Numéros d'urgence",
-        ES: "Números de emergencia",
-        BG: "Спешни телефони",
-        HU: "Segélyhívó számok",
-        PL: "Numery alarmowe"
+        IT: "Numero di emergenza",
+        EN: "Emergency number",
+        DE: "Notrufnummer",
+        FR: "Numéro d'urgence",
+        ES: "Número de emergencia",
+        BG: "Спешен телефон",
+        HU: "Segélyhívó szám",
+        PL: "Numer alarmowy"
       }
     }
   ]

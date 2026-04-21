@@ -603,10 +603,7 @@ const App: React.FC = () => {
     // Special rendering for Emergency
     if (section.id === 'emergency') {
       const emergencyNumbers = [
-        { number: "112", label: "Numero Unico Emergenze" },
-        { number: "113", label: "Polizia di Stato" },
-        { number: "118", label: "Ambulanza" },
-        { number: "115", label: "Vigili del Fuoco" }
+        { number: "112", label: "Numero Unico Emergenze" }
       ];
       
       return (
